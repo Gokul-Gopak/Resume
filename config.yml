@@ -1,5 +1,5 @@
 ## Example Config file
-baseURL: "https://gokul_cv.com"
+baseURL: "https://gokul-resume.netlify.app"
 theme: "terminalcv"
 title: "Welcome to Gokul's Resume !"
 
