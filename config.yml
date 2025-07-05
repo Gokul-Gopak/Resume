@@ -1,0 +1,367 @@
+## Example Config file
+baseURL: "https://gokul_cv.com"
+theme: "terminalcv"
+title: "Welcome to Gokul's Resume !"
+
+params:
+  version: "3.0.0"
+  description: "A basic introduction on what I do"
+  blog: true
+  prompt:
+    core:
+      text: "user@gokulCV"
+      color: "white"
+      before: "["
+      beforeColor: "red"
+      after: '\]'
+      afterColor: "red"
+      # separator: '-'
+    separator:
+      text: "-"
+      # color:
+    path:
+      before: "["
+      beforeColor: "red"
+      text: "~/cv"
+      color: "gold"
+      after: '\]'
+      afterColor: "red"
+    extra:
+      text: ": "
+      color: "orange"
+
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  # useLess: true
+  listLS: true
+  #exitLocation: "about:blank"
+  exitMessage: "[Session completed, the browserwindow can be safely closed]"
+  source: false
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: |
+    ‎ _   _      _ _         _____ _                   _ 
+    | | | | ___| | | ___   |_   _| |__   ___ _ __ ___| |
+    | |_| |/ _ \ | |/ _ \    | | | '_ \ / _ \ '__/ _ \ |
+    |  _  |  __/ | | (_) |   | | | | | |  __/ | |  __/_|
+    |_| |_|\___|_|_|\___/    |_| |_| |_|\___|_|  \___(_)
+
+    Welcome to Gokul's online resume
+
+    Type 'help' for a list of available commands
+
+  bootsequence: |
+    ⚡ INITIATING SYSTEMS... [USER] AUTHENTICATED
+    ████████████████████ 19% LOADING CLOUD NEURAL NETWORK
+    [¬º-°]¬ ~ SPINNING UP QUANTUM CLOUD INSTANCES...
+    |||||||||||||||||||||| 47% SYNCING Block#42069
+    ░░░░░░░░░░░░░░░░░░░░ 68% DECRYPTING ENCRYPTION KEYS
+    [✓] CLOUD MATRIX ONLINE
+    [✓] 5G/6G QUANTUM LINK ESTABLISHED
+    
+    ⚠ WARNING: INTERNET BREAKOUT DETECTED
+    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 84% BYPASSING FIREWALLS
+    [>_] PONG.EXE LOADED (BUT PING IS WATCHING)
+    
+    ████████████████████ 100% CLOUDOS INITIATED
+    [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅] CRYPTO WALLET SYNCED
+    
+    *~*~* CLOUDOS KERNEL v1.4.2 *~*~*
+    BUILD: 2999.02.29-ULTRA.ARM64
+    [AI CO-PILOT]: ONLINE
+    [QUANTUM TUNNEL]: ACTIVE
+    
+    ░▒▓███████▓▒░ SCANNING DARK WEB... JUST KIDDING ░▒▓███████▓▒░
+    
+    [̲̅$̲̅(̲̅IOU)̲̅$̲̅] LOADING MODULES:
+    [̿̿̿̿̿̿̿̿̿̿̿̿̿̿̿̿] CLOUDOS: READY (v3.1.3.7)
+    [̿̿̿̿̿̿̿̿̿̿̿̿̿̿̿̿] WEBSPHERE: ONLINE
+    [̿̿̿̿̿̿̿̿̿̿̿̿̿̿̿̿] TERMINAL++: ACTIVE
+    [̿̿̿̿̿̿̿̿̿̿̿̿̿̿̿̿] 1337-H4X MODE: ENABLED
+    
+    [✓] ALL SYSTEMS NOMINAL
+    [✓] CYBER SECURITY: 99.99%
+    [✓] READY FOR INPUT
+    
+    >_ Welcome !!
+
+  whois:
+    # settings:
+    #   useLess: true
+    details:
+      name: "Gokul Gopakumar"
+      profession: "Security and Infrastructure"
+      location: "United States"
+      email: "gokul.gopak@gmail.com"
+      linkedin: "https://www.linkedin.com/in/gokul-gopakumar-580513207/"
+      description: |
+        Here you can write something catchy about yourself
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+      - name: "github"
+        url: "https://github.com/Gokul-Gopak"
+      - name: "Security News Blog"
+        url: "https://gokul-blog-fun.blogspot.com"
+      - name: "Security Blogs"
+        url: "https://gokulSecArchitect.com"
+
+  work:
+    # settings:
+    #   useLess: true
+    details:
+      - jobTitle: HPC Software Consultant
+        color: red
+        company: "Penn State Institute for Computational and Data Sciences "
+        location: State College, PA
+        date: Jan 2025 - Present
+        description: |
+          [root@hpc~]# ./solve_research_problems.sh --research-department=all
+          █ Loading computational singularity...
+          [✓] Optimized research workflows across 10+ departments
+          [✓] Troubleshot security issues and performed software installations on clients’ Red Hat Linux Enterprise systems, and resolved 95% of support tickets via ServiceNow by root cause analysis.
+          [✓] Installed and configured required software (including Anaconda environments with scientific stacks) for HPC and ICDS Software stack compatibility.
+          [✓] Configured Slurm job scheduling bash and python scripts to reduce resource misuse, improving system performance for large-scale research projects.
+          [>] Managed RHEL cluster endpoint telemetry host firewalls, MS Defender ATP, Nessus, Splunk agents, enabling threat detection.
+          
+          [root@hpc~]# tail -f knowledge.log
+          • Mastered Slurm job scheduling and GPU allocation
+          • Mastering and managing packages and versions of R, Ansys, Anaconda, COMSOL and MPI
+          • Automated software deployments via scripts
+          • Documented solutions in Bookstack for future admins
+          • Understanding the backend of Apptainers and their security benefits
+
+      - jobTitle: DevSecOps
+        color: purple
+        company: "Nirmata (Startup)"
+        open-source: "Kyverno"
+        location: Remote
+        date: July 2023 - May 2024
+        description: |
+          [root@cloud~]# kubectl apply -f Nirmata-kyverno-journey.yaml
+          ████████████████████ 100% MULTI-CLOUD CONVERGENCE
+          [✓] AWS/Azure/GCP K8s clusters transmuted to gold
+          [✓] Production fires extinguished with 99.99% uptime
+          [⚡] MongoDB TLS/MTLS security spells cast
+          [🛡️] Kyverno policies enforced like digital law
+          [🔍] Loki-Prom-Grafana: Logs→Alerts→Action  
+
+          [gatekeeper@firewall]# ./harden_infrastructure.incantation
+          🌐 Global client bastions (US/CAN/IND) fortified
+          🔥 Next-gen firewall sigils + zero-trust load balancers
+          💾 Automated DB backup/upgrade scrolls illuminated
+          📜 Migration scrolls illuminated for smooth transitions          
+          🚫 100% critical alerts banished to /dev/null
+
+          [automancer@ci-cd]# invoke-pipeline-sorcery --kyverno
+          ⚙️ Kyverno-Jenkins policy plugins forged
+          🔄 Zero-downtime upgrade rituals perfected
+          📦 Kubernetes manifests blessed by CI/CD elders
+
+          [SECURITY ACHIEVEMENTS UNLOCKED]
+          🔒 Cloud infrastructure baptized in TLS waters
+          🛡️ Custodian policies forged in security and cost fires
+          📦 Kubernetes manifests blessed for production
+          🚨 Grafana and Cloudwatch dashboards now scream before outages  
+          🔄 Zero-downtime upgrades via automation magic
+          ⚙️ Engineered Kyverno-Jenkins plugins to enforce policy-as-code in CI/CD pipelines   
+
+  education:
+    details:
+      - courseName: Masters in Cyber Analytics & Operations
+        color: red
+        date: August 2024 - Present
+        description: GPA - 3.95
+
+      - courseName: Bachelor in Computer Engineering with Spec. in Information Security
+        date: July 2019 - July 2023
+        #description: There is no need for description
+
+  skills:
+    settings:
+      terminal_mode: true
+    skill_bars: "█████" 
+    details:
+      - name: "Cloud & Kubernetes"
+        color: "aws_orange"
+        percentage: 90
+        description: |
+          [cloud@mastery]# aws azure gcp --k8s
+          [✓] CKA Certified | AWS Solutions Architect
+          [✓] Managed 50+ clusters across 3 clouds
+
+      - name: "DevSecOps Toolchain"
+        color: "hacker_green"
+        percentage: 85  
+        description: |
+          [devops@ci]# terraform argocd jenkins --secure
+          [✓] Policy-as-Code (Kyverno/Custodian)
+          [✓] Built 100+ CI/CD pipelines
+
+      - name: "Security & Monitoring"
+        color: "alert_red"  
+        percentage: 80
+        description: |
+          [sec@monitor]# grafana loki prometheus
+          [✓] Security+ Certified | AWS Security Hub
+          [✓] Hardened 200+ services
+
+      - name: "Programming & Systems"
+        color: "code_blue"
+        percentage: 75
+        description: |
+          [root@systems]# python java linux git
+          [✓] RHEL | Docker | Apptainer | Slurm | K8s
+          [✓] Automated HPC deployments
+
+  softskills:
+    settings:
+      display_mode: "terminal_enhanced"
+    details:
+      - name: "Research Collaboration"
+        color: "psu_blue"
+        percentage: 95
+        description: |
+          [hpc@support]# ./optimize_research.sh
+          Supported 10+ academic departments
+
+      - name: "Incident Resolution"  
+        color: "urgent_yellow"
+        percentage: 90
+        description: |
+          [ticket@servicenow]# resolve --root-cause
+          95% ticket resolution rate
+
+      - name: "Documentation"
+        color: "doc_green"
+        percentage: 85
+        description: |
+          [docs@bookstack]# write --clear --technical
+          Created institutional knowledge base
+
+
+  languages:
+    # settings:
+    #   useLess: true
+    details:
+      - name: English
+        color: Green
+        percentage: 100
+        #description:
+      - name: Malayalam
+        color: Green
+        percentage: 100
+        #description:
+      - name: Tamil
+        color: Blue
+        percentage: 67
+        #description:
+      - name: Hindi
+        color: Blue
+        percentage: 67
+      - name: Spanish
+        color: Red
+        percentage: 20
+      - name: French
+        color: Red
+        percentage: 20
+      - name: Gibberish
+        percentage: 100
+        description: pasghettipigglywiggly
+  projects:
+      settings:
+        terminal_theme: "cyber-expansion"
+        map_view: "north_america"
+      details:
+        - title: "Open Guardian Solutions | North American Cyber Expansion"
+          color: "purple"
+          date: "2025"
+          link: "https://github.com/Gokul-Gopak/open-guardian-ist554"
+          tech: "Market Analysis | Site Selection | Risk Assessment | Cloud Setup"
+          description: |
+            [strategic-planner@lead]# ./command_na_expansion.sh --role="Leader"
+            ████████████████████ 100% STRATEGY LOADED
+            [✓] New cyber-fortress: Montreal (QC, Canada)
+            [✓] East Coast nodes: Boston + Raleigh secured
+            [⚡] Legal/Compliance: Cross-border frameworks applied
+
+            [risk@assessment]# nmap -sS --cyber-risk
+            • Scanned 50+ locations for SOC2/ISO27001 readiness
+            • Allocated $2.1M infra budget via zero-trust principles
+            • Projected 40% client growth with 99.9% SLA guarantees
+
+            [growth@metrics]# watch -n 1 'cyber-demand'
+            🌎 Serves 200+ new enterprises in NA region
+            🛡️ Adds 24/7 threat monitoring coverage
+            🔄 Triples incident response capacity
+
+            [DOCUMENTATION ACHIEVED]
+            📜 Market analysis: 15 target industries
+            ⚖️ Legal playbook: US-CAN data sovereignty
+            🏢 Facility blueprints: Network-hardened designs
+           
+          
+#  projects:
+    # settings:
+    #   useLess: true
+#    details:
+#      - title: Project Red
+#        color: red
+#        date: since 2019
+#        link: https://example.com
+#        description: Describing red stuff
+
+#      - title: Project Blue
+#        color: blue
+#        date: since 2016
+#        link: https://example.com/blue
+        #description: nothing to describe
+
+#      - title: Project Default
+#        date: Since 2017
+#        link: https://example.com/default
+#        #description: not there either
+
+  certifications:
+    settings:
+      terminal_theme: "cyberpunk"
+      badge_style: "emoji_plus_link"
+    details:
+      - certName: "Certified Kubernetes Administrator (CKA)"
+        color: Blue
+        company: "Linux Foundation"
+        date: "Nov 2024 - Nov 2026"
+        badge: "⚙️ https://www.credly.com/badges/ce40ea5d-ff91-4a25-8985-ed52367d8787"
+        description: |
+          [k8s@prod]# kubectl get certs
+          [✓] Cluster operations mastery
+          [✓] Security+Networking+Storage expertise
+          [✓] Production troubleshooting certified
+
+      - certName: "AWS Solutions Architect - Associate"
+        color: Green
+        company: "Amazon Web Services"
+        date: "Mar 2023 - Mar 2026"  
+        badge: "☁️ https://www.credly.com/badges/ce40ea5d-ff91-4a25-8985-ed52367d8787"
+        description: |
+          [cloud@architect]# aws best-practices
+          [✓] Multi-service architecture design
+          [✓] Security+Cost optimization strategies
+          [✓] 200+ AWS services implemented
+
+      - certName: "CompTIA Security+"
+        color: Red
+        company: "CompTIA"  
+        date: "Jan 2022"
+        badge: "🛡️ https://www.credly.com/badges/81a034b1-c05f-472e-a268-b3d75e6eaccc"
+        description: |
+          [sec@fundamentals]# ./harden_systems.sh
+          [✓] Core security principles validated
+          [✓] Threat detection+mitigation certified  
+          [✓] Compliance frameworks mastered
+
+    contentColor: orange
